@@ -1,4 +1,5 @@
 # Online Retail Data Mastery: In-Depth Analysis with Dashboard for RFM Segmentation, Clustering, Cohorts, and Predictive Forecasting
+This project utilizes advanced data analytics to enhance retail business performance through a comprehensive dashboard featuring RFM Segmentation, Clustering, Cohort Analysis, and Predictive Forecasting. The dashboard aims to address key business problems such as improving customer retention by categorizing customers with RFM analysis, enhancing customer segmentation using clustering techniques, gaining insights into customer behavior over time with cohort analysis, and optimizing sales by predicting future product demand through forecasting. Additional KPIs, including Total Customers, Total Product Sold, Total Revenue, and Average Order Value (AOV), are monitored to assess performance and guide strategic decision-making.
 
 ## 🧩 Business Problem & Objectives 
 
@@ -24,15 +25,24 @@
    * **Total Revenue:** Calculates the total revenue generated.
    * **Average Order Value (AOV):** Finds out the average value per order.
 
-## Actionable Insight
-## Recommendation
-## Dashboard
+## 💡 Actionable Insights
+## ✅ Recommendations
+## 🖥️ Dashboard
 For detailed visualizations and further exploration of our data, please visit our Tableau dashboard:
 
 🔰 [Online Retail Dashboard in Tableau Public](https://public.tableau.com/views/OnlineRetailDashboard_17228704584530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Dashboard Page 1](Dashboard%20-%20Cohort%20%26%20Forecasting.png)
+![Dashboard Page 1](Dashboard%201%20-%20Segmentation%20%26%20Clustering.png)
+![Dashboard Page 2](Dashboard%202%20-%20Cohort%20%26%20Forecasting.png)
 
+## 🚀 How to Use
 
-
-![Dashboard Page 2](Dashboard%2%-%Cohort%&%Forecasting.png)
+To get started with this project:
+1. Clone the repository: `git clone https://github.com/Latiifff/Online_Retail_Analysis.git`
+2. Open the Tableau Public files included in the repository.
+3. Connect the Tableau files to the dataset "Online Retail (clean data).csv".
+4. Explore and customize the dashboards as needed.
+   
+## 📚 References
+- Chen,Daqing. (2015). Online Retail. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33.
+- https://medium.com/@dinichandraa/the-look-e-commerce-customer-segmentation-a45de7d44b20
