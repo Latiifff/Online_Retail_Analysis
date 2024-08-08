@@ -20,7 +20,15 @@ This project utilizes advanced data analytics to enhance retail business perform
    * **Total Product Sold:** Measures the total number of products sold.
    * **Total Revenue:** Calculates the total revenue generated.
    * **Average Order Value (AOV):** Finds out the average value per order.
-     
+
+## 🖥️ Dashboard
+For detailed visualizations and further exploration of our data, please visit our Tableau dashboard:
+
+🔰 [Online Retail Dashboard in Tableau Public](https://public.tableau.com/views/OnlineRetailDashboard_17228704584530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+![Dashboard Page 1](Dashboard%201%20-%20Segmentation%20%26%20Clustering.png)
+![Dashboard Page 2](Dashboard%202%20-%20Cohort%20%26%20Forecasting.png)
+
 ## 🔑 Key Insights
 1. **Additional KPIs:**
    - Total Customer Acquisition: 4,34K
@@ -40,7 +48,12 @@ This project utilizes advanced data analytics to enhance retail business perform
    - Cluster 0 is the largest cluster with the highest product and revenue contribution, however its average order value is slightly below average (£3,021).
    - Cluster 1 has the highest AOV (£3,936) and significant revenue contribution despite having few customers.
    - Cluster 2 and Cluster 3 have lower AOV and lower revenue contribution and product volume.
-
+6. **Cohort Analysis:**
+   - Customer Retention: Significant drop from 885 customers in Dec 2010 to 324 in Jan 2011, with a consistent decline in subsequent months.
+   - Revenue Retention: Initial high revenue of 570.4K in Dec 2010, dropping sharply to 275.7K in Jan 2011, with some months showing revenue increases (e.g., 512.3K in Nov 2011).
+7. **Predictive Forecasting:**
+   - Revenue Trend: There was minor fluctuation in revenue from December 2010 to September 2011, followed by a clear upward trend until December 2011. The future forecast indicates a steady increase in revenue, but with growing uncertainty.
+   - Product Sales Trend: Product sales remained stable until September 2011, after which there was a slight increase. The forecast suggests a continued steady rise in sales, with an expanding range of uncertainty.
      
 ## 💡 Actionable Insights
 1. **Optimize Retention:** Focus on Others/Recent Shoppers for retention and improved customer experience.
@@ -51,6 +64,12 @@ This project utilizes advanced data analytics to enhance retail business perform
    - Cluster 2: Offer incentives and loyalty programs to increase purchase frequency and engagement.
    - Cluster 3: Conduct in-depth analysis to understand their specific needs and customize products or services to make them more relevant.
 4. **Loyalty Program:** Develop programs to encourage Almost Lost and Recent Shoppers to increase purchase frequency and transaction value.
+5. **Customer behavior based on Cohort Analysis:**
+   - Improve Customer Retention: Implement loyalty programs and personalized follow-ups to engage and retain customers. Focus on understanding why customers drop off after the initial purchase and address those issues through feedback surveys and enhanced customer engagement strategies.
+   - Optimize Revenue: Analyze successful cohorts with revenue increases to identify and replicate effective strategies. Target high-value customers with exclusive offers, upselling, and cross-selling opportunities to maximize revenue retention and growth.
+6. **Predictive Forecasting:**
+   - Revenue Optimization: Given the upward trend in revenue, consider reinforcing strategies that contributed to the recent growth. Monitor potential factors that could introduce uncertainty and address them proactively.
+   - Sales Growth: The steady rise in product sales presents an opportunity to invest in marketing and sales channels that effectively convert interest into purchases. Focus on maintaining and enhancing customer acquisition strategies.
 
 ## ✅ Recommendations
 1. **Product Development:** Analyze best-selling products in Others/Recent Shopper and Cluster 0 to expand product offerings on demand.
@@ -59,14 +78,8 @@ This project utilizes advanced data analytics to enhance retail business perform
 4. **Incentive and Promotion Programs:** Offer special incentives and attractive promotions to Potential Customers to turn them into active and loyal customers.
 5. **Strategy for Cluster 2:** Implement incentive and loyalty programs designed to increase purchase frequency and transaction value from customers in Cluster 2.
 6. **Strategy for Cluster 3:** Conduct in-depth analysis to understand the specific preferences and needs of customers in Cluster 3, and customize products or services to increase their relevance and engagement.
-   
-## 🖥️ Dashboard
-For detailed visualizations and further exploration of our data, please visit our Tableau dashboard:
-
-🔰 [Online Retail Dashboard in Tableau Public](https://public.tableau.com/views/OnlineRetailDashboard_17228704584530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-![Dashboard Page 1](Dashboard%201%20-%20Segmentation%20%26%20Clustering.png)
-![Dashboard Page 2](Dashboard%202%20-%20Cohort%20%26%20Forecasting.png)
+7. **Based on Cohort Analysis** companies can conduct customer feedback surveys to understand the reasons for purchase cancellation and develop engagement strategies such as regular communication and personalized offers. Introduce tiered loyalty programs to encourage repeat purchases and higher spend. Leverage data analysis to create targeted marketing campaigns and improve the overall customer experience by optimizing websites and addressing purchase process issues.
+8. **Based on Predictive Forecasting** companies can strengthen the strategies that have driven recent revenue and sales growth, while implementing risk management plans to address increased uncertainty. In addition, consider new product launches or enhancements to existing products to capitalize on anticipated sales increases. Finally, perform regular updates to forecasting models with the latest data to improve accuracy and support more informed decision-making.
 
 ## 🚀 How to Use
 To get started with this project:
